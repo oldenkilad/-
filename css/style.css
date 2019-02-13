@@ -9,7 +9,7 @@ body {
 
 /* firstsection */
 
-.firstSection {
+.firstScreen {
     background: url(../images/first.jpg) no-repeat;
     background-size: cover;
     width: 100%;
@@ -85,6 +85,7 @@ body {
 
 .iconIcons {
     display: flex;
+    margin-bottom: 94px;
 }
 
 .icons h4 {
@@ -92,7 +93,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin-top: 27px;
-    margin-bottom: 1px;
+    margin-bottom: -13px;
 }
 
 .icons p {
@@ -108,4 +109,53 @@ body {
     margin-right: auto;
 }
 
-/* end of firstsection */
+/* end of secondsection */
+
+/* thirdsection */
+
+.thirdSection {
+    background: #000;
+    background-size: cover;
+    width: 100%;
+    /* height: auto; */
+}
+.client {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+
+.client h1 {
+    font-size: 42px;
+    font-weight: 900;
+
+}
+
+.client h3 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.more {
+    text-align: left;
+    color: white;
+}
+
+.moreButton {
+    background: #f67e26 none repeat scroll 0% 0%;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    border-radius: 50px 50px;
+    padding: 26px 35px 30px 35px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*end of thirdsection */
+
+/* footer */
+
+/* endoffooter */
