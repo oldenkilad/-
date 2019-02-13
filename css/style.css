@@ -1,0 +1,111 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    width: 1155px;
+    margin: 0px auto 0px auto;
+}
+
+/* firstsection */
+
+.firstSection {
+    background: url(../images/first.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: inline;
+}
+
+.logo img {
+    padding-top: 23px;
+}
+
+.phone {
+    display: inline;
+}
+
+.phone h3 {
+    display: inline;
+    color: white;
+    margin-left: 663px;
+}
+
+.offer {
+    color: white;
+    text-align: center;
+    padding-bottom: 335px;
+}
+
+.offer h1 {
+    font-size: 38px;
+    margin-top: 161px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.offer h2 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: -23px;
+    text-transform: uppercase;
+}
+
+.offer a {
+    background: #f67e26 none repeat scroll 0% 0%;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    border-radius: 50px 50px;
+    padding: 26px 35px 30px 35px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* end of firstsection */
+
+/* secondsection */
+
+.advantage h3 {
+    margin-top: 93px;
+    margin-bottom: 70px;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.icons {
+    margin-right: 14em;
+}
+
+.iconIcons {
+    display: flex;
+}
+
+.icons h4 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 27px;
+    margin-bottom: 1px;
+}
+
+.icons p {
+    font-size: 20px;
+    width: 235px;
+    height: 82px;
+}
+
+.icons img {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: auto;
+}
+
+/* end of firstsection */
