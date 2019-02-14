@@ -119,6 +119,11 @@ body {
     width: 100%;
     /* height: auto; */
 }
+
+.present {
+    display: flex;
+}
+
 .client {
     color: white;
     text-align: center;
@@ -129,33 +134,92 @@ body {
 .client h1 {
     font-size: 42px;
     font-weight: 900;
-
+    margin-bottom: 25px;
 }
 
 .client h3 {
     font-size: 28px;
     font-weight: 100;
+    margin-bottom: 130px;
+    margin-top: -20px;
+}
+
+.app {
+    margin-left: 120px;
+    margin-bottom: 105px;
+    /* width: 270px;
+    height: 350px;  */
 }
 
 .more {
     text-align: left;
     color: white;
+    width: 521px;
+    height: 295px;
+    margin-left: 132px;
+}
+
+.more h3 {
+    font-size: 23px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+}
+
+.more p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
 
 .moreButton {
-    background: #f67e26 none repeat scroll 0% 0%;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 900;
-    color: white;
-    border-radius: 50px 50px;
-    padding: 26px 35px 30px 35px;
+    padding: 23px 52px;
+    border: 1px solid #f67e26;
+    background: transparent none repeat scroll 0% 0%;
+    border-radius: 60px 60px;
     margin-top: 30px;
-    text-decoration: none;
     display: inline-block;
+}
+
+.moreButton a {
+    text-decoration: none;
+    color: #f67e26;
 }
 
 /*end of thirdsection */
 
 /* footer */
+
+footer {
+    display: flex;
+}
+
+.logoFoo {
+    padding-top: 10px;
+    margin-right: 150px;
+}
+
+.qwerty {
+    display: flex;
+    align-items: center;
+}
+
+.qwerty p {
+    font-size: 14px;
+}
+
+.qwerty h5 {
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.qwerty h3 {
+    font-size: 24px;
+    margin-left: 80px;
+}
 
 /* endoffooter */
